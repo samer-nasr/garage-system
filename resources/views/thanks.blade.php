@@ -1,0 +1,2 @@
+@extends('layout')
+@section('content')<section class="section"><div class="container empty"><span class="eyebrow">MB GREIČIO AUTO</span><h1>{{ session('reference') ? __('site.thanks') : __('site.no_request') }}</h1>@if(session('reference'))<p>{{ __('site.thanks_text') }}</p><p><strong>{{ __('site.reference') }}:</strong> {{ session('reference') }}</p><p>{{ __('site.confirm_note') }}</p>@endif<a class="button yellow" href="{{ route('home',$locale) }}">{{ __('site.home') }} ↗</a></div></section>@endsection

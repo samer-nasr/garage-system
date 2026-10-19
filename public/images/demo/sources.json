@@ -1,0 +1,66 @@
+{
+  "purpose": "Demonstration images only. Car photographs are representative and do not establish actual inventory or model identity.",
+  "cars": [
+    {
+      "file": "car-1.jpg",
+      "source": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7",
+      "provider": "Unsplash"
+    },
+    {
+      "file": "car-2.jpg",
+      "source": "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+      "provider": "Unsplash"
+    },
+    {
+      "file": "car-3.jpg",
+      "source": "https://images.unsplash.com/photo-1502877338535-766e1452684a",
+      "provider": "Unsplash"
+    },
+    {
+      "file": "car-4.jpg",
+      "source": "https://images.unsplash.com/photo-1542362567-b07e54358753",
+      "provider": "Unsplash"
+    },
+    {
+      "file": "car-5.jpg",
+      "source": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d",
+      "provider": "Unsplash"
+    },
+    {
+      "file": "car-6.jpg",
+      "source": "https://images.unsplash.com/photo-1555215695-3004980ad54e",
+      "provider": "Unsplash"
+    },
+    {
+      "file": "car-7.jpg",
+      "source": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2",
+      "provider": "Unsplash"
+    },
+    {
+      "file": "car-8.jpg",
+      "source": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf",
+      "provider": "Unsplash"
+    },
+    {
+      "file": "car-9.jpg",
+      "source": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c",
+      "provider": "Unsplash"
+    },
+    {
+      "file": "car-10.jpg",
+      "source": "https://images.unsplash.com/photo-1503736334956-4c8f8e92946d",
+      "provider": "Unsplash"
+    },
+    {
+      "file": "car-11.jpg",
+      "source": "https://images.unsplash.com/photo-1486496572940-2bb2341fdbdf",
+      "provider": "Unsplash"
+    },
+    {
+      "file": "car-12.jpg",
+      "source": "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b",
+      "provider": "Unsplash"
+    }
+  ],
+  "illustrations": "24 original code-created SVG illustrations for parts and garage services."
+}

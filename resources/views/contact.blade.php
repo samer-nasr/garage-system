@@ -1,0 +1,5 @@
+@extends('layout')
+@section('title',__('site.contact'))
+@section('content')
+<section class="page-heading"><div class="container"><span class="eyebrow">VILNIUS, LIETUVA</span><h1>{{ __('site.contact') }}<span class="yellow-text">.</span></h1><p>{{ __('site.talk') }}</p></div></section><section class="section"><div class="container detail-grid"><div class="panel"><h2>MB Greičio Auto</h2><dl class="specs"><div><dt>{{ __('site.address') }}</dt><dd>Šiaures gatve 2, Vilnius</dd></div><div><dt>{{ __('site.phone') }}</dt><dd><a href="tel:+37065498007">+370 654 98007</a></dd></div></dl><p>{{ __('site.visit_note') }}</p><div class="actions"><a class="button yellow" href="tel:+37065498007">{{ __('site.call_book') }} ↗</a><a class="button dark" href="https://www.google.com/maps/search/?api=1&query=%C5%A0iaures+gatve+2+Vilnius" target="_blank" rel="noopener">{{ __('site.directions') }} ↗</a></div></div><div class="contact-art"><span class="eyebrow">{{ __('site.visit') }}</span><h2>Šiaures gatve 2<span class="yellow-text">.</span><br>Vilnius</h2><p>{{ __('site.delivery_note') }}</p><p>{{ __('site.rental_note') }}</p></div></div></section>
+@endsection

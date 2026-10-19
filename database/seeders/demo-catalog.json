@@ -1,0 +1,782 @@
+[
+  {
+    "type": "part",
+    "title": {
+      "lt": "Stabdžių diskas",
+      "en": "Brake disc",
+      "ru": "Тормозной диск"
+    },
+    "description": {
+      "lt": "Ventiliuojamas priekinis stabdžių diskas. Tinkamumą patikrinkite pagal VIN ir dalies matmenis.\nPavyzdinis įrašas ir iliustracija. Kaina, likutis ir suderinamumas skirti demonstracijai.",
+      "en": "Vented front brake disc. Confirm fitment using your VIN and the part dimensions.\nSample listing with an illustration. Price, stock, and compatibility are for demonstration.",
+      "ru": "Вентилируемый передний тормозной диск. Уточните совместимость по VIN и размерам.\nПример с иллюстрацией. Цена, остаток и совместимость указаны для демонстрации."
+    },
+    "category": "Brakes",
+    "condition": "new",
+    "price": 49.9,
+    "stock": 8,
+    "part_number": "DEMO-BRK-001",
+    "make": "BMW",
+    "model": "3 Series",
+    "compatibility": "E90 / E91 · 2005–2012",
+    "asset": "part-1.svg"
+  },
+  {
+    "type": "part",
+    "title": {
+      "lt": "Priekinis žibintas",
+      "en": "Front headlight",
+      "ru": "Передняя фара"
+    },
+    "description": {
+      "lt": "Naudotas priekinis žibintas. Prieš užsakydami suderinkite jungtis, pusę ir komplektaciją.\nPavyzdinis įrašas ir iliustracija. Kaina, likutis ir suderinamumas skirti demonstracijai.",
+      "en": "Used front headlight. Confirm connectors, side, and specification before ordering.\nSample listing with an illustration. Price, stock, and compatibility are for demonstration.",
+      "ru": "Подержанная передняя фара. Уточните разъёмы, сторону и комплектацию.\nПример с иллюстрацией. Цена, остаток и совместимость указаны для демонстрации."
+    },
+    "category": "Lighting",
+    "condition": "used",
+    "price": 125,
+    "stock": 2,
+    "part_number": "DEMO-LGT-002",
+    "make": "BMW",
+    "model": "5 Series",
+    "compatibility": "F10 / F11 · 2010–2017",
+    "asset": "part-2.svg"
+  },
+  {
+    "type": "part",
+    "title": {
+      "lt": "Alyvos filtras",
+      "en": "Oil filter",
+      "ru": "Масляный фильтр"
+    },
+    "description": {
+      "lt": "Keičiamas alyvos filtro elementas. Nurodykite variklio kodą tinkamam filtrui parinkti.\nPavyzdinis įrašas ir iliustracija. Kaina, likutis ir suderinamumas skirti demonstracijai.",
+      "en": "Replacement oil filter element. Supply the engine code to select the correct filter.\nSample listing with an illustration. Price, stock, and compatibility are for demonstration.",
+      "ru": "Сменный масляный фильтр. Укажите код двигателя для правильного подбора.\nПример с иллюстрацией. Цена, остаток и совместимость указаны для демонстрации."
+    },
+    "category": "Filters",
+    "condition": "new",
+    "price": 12.5,
+    "stock": 15,
+    "part_number": "DEMO-FLT-003",
+    "make": "Volkswagen",
+    "model": "Golf",
+    "compatibility": "Golf VII · 2012–2020",
+    "asset": "part-3.svg"
+  },
+  {
+    "type": "part",
+    "title": {
+      "lt": "Šoninis veidrodėlis",
+      "en": "Side mirror",
+      "ru": "Боковое зеркало"
+    },
+    "description": {
+      "lt": "Naudotas veidrodėlio mazgas. Dėl spalvos, šildymo ir elektrinio valdymo susisiekite.\nPavyzdinis įrašas ir iliustracija. Kaina, likutis ir suderinamumas skirti demonstracijai.",
+      "en": "Used mirror assembly. Contact us about color, heating, and electrical adjustment.\nSample listing with an illustration. Price, stock, and compatibility are for demonstration.",
+      "ru": "Подержанное зеркало в сборе. Уточните цвет, обогрев и электрорегулировку.\nПример с иллюстрацией. Цена, остаток и совместимость указаны для демонстрации."
+    },
+    "category": "Bodywork",
+    "condition": "used",
+    "price": 65,
+    "stock": 3,
+    "part_number": "DEMO-BDY-004",
+    "make": "Audi",
+    "model": "A4",
+    "compatibility": "B8 · 2008–2015",
+    "asset": "part-4.svg"
+  },
+  {
+    "type": "part",
+    "title": {
+      "lt": "Akumuliatorius 70 Ah",
+      "en": "70 Ah battery",
+      "ru": "Аккумулятор 70 А·ч"
+    },
+    "description": {
+      "lt": "12 V akumuliatorius. Parenkame pagal matmenis, poliškumą ir start-stop sistemą.\nPavyzdinis įrašas ir iliustracija. Kaina, likutis ir suderinamumas skirti demonstracijai.",
+      "en": "12 V battery. Selection depends on dimensions, terminal layout, and stop-start requirements.\nSample listing with an illustration. Price, stock, and compatibility are for demonstration.",
+      "ru": "Аккумулятор 12 В. Подбор зависит от размеров, полярности и системы старт-стоп.\nПример с иллюстрацией. Цена, остаток и совместимость указаны для демонстрации."
+    },
+    "category": "Electrical",
+    "condition": "new",
+    "price": 99,
+    "stock": 6,
+    "part_number": "DEMO-ELC-005",
+    "make": "Volkswagen",
+    "model": "Passat",
+    "compatibility": "Passat B8 · patvirtinti / confirm",
+    "asset": "part-5.svg"
+  },
+  {
+    "type": "part",
+    "title": {
+      "lt": "Lengvojo lydinio ratlankis R17",
+      "en": "17-inch alloy wheel",
+      "ru": "Легкосплавный диск R17"
+    },
+    "description": {
+      "lt": "Naudotas 17 colių ratlankis. Būtina patikrinti skylių išdėstymą, ET ir centrinę skylę.\nPavyzdinis įrašas ir iliustracija. Kaina, likutis ir suderinamumas skirti demonstracijai.",
+      "en": "Used 17-inch alloy wheel. Verify bolt pattern, offset, and center bore.\nSample listing with an illustration. Price, stock, and compatibility are for demonstration.",
+      "ru": "Подержанный диск 17 дюймов. Проверьте разболтовку, вылет и центральное отверстие.\nПример с иллюстрацией. Цена, остаток и совместимость указаны для демонстрации."
+    },
+    "category": "Wheels",
+    "condition": "used",
+    "price": 85,
+    "stock": 4,
+    "part_number": "DEMO-WHL-006",
+    "make": "Audi",
+    "model": "A6",
+    "compatibility": "C7 · patvirtinti / confirm",
+    "asset": "part-6.svg"
+  },
+  {
+    "type": "part",
+    "title": {
+      "lt": "Uždegimo žvakė",
+      "en": "Spark plug",
+      "ru": "Свеча зажигания"
+    },
+    "description": {
+      "lt": "Nauja uždegimo žvakė benzininiam varikliui. Tikslų tipą patvirtinkite pagal variklio kodą.\nPavyzdinis įrašas ir iliustracija. Kaina, likutis ir suderinamumas skirti demonstracijai.",
+      "en": "New spark plug for a petrol engine. Confirm the exact specification using the engine code.\nSample listing with an illustration. Price, stock, and compatibility are for demonstration.",
+      "ru": "Новая свеча для бензинового двигателя. Уточните тип по коду двигателя.\nПример с иллюстрацией. Цена, остаток и совместимость указаны для демонстрации."
+    },
+    "category": "Engine",
+    "condition": "new",
+    "price": 9.9,
+    "stock": 24,
+    "part_number": "DEMO-ENG-007",
+    "make": "Toyota",
+    "model": "Corolla",
+    "compatibility": "Benzinas / Petrol · pagal variklio kodą",
+    "asset": "part-7.svg"
+  },
+  {
+    "type": "part",
+    "title": {
+      "lt": "Priekinis amortizatorius",
+      "en": "Front shock absorber",
+      "ru": "Передний амортизатор"
+    },
+    "description": {
+      "lt": "Priekinės pakabos amortizatorius. Patikrinkite pusę ir pakabos komplektaciją.\nPavyzdinis įrašas ir iliustracija. Kaina, likutis ir suderinamumas skirti demonstracijai.",
+      "en": "Front suspension shock absorber. Check the side and suspension specification.\nSample listing with an illustration. Price, stock, and compatibility are for demonstration.",
+      "ru": "Передний амортизатор. Уточните сторону и тип подвески.\nПример с иллюстрацией. Цена, остаток и совместимость указаны для демонстрации."
+    },
+    "category": "Suspension",
+    "condition": "new",
+    "price": 72,
+    "stock": 6,
+    "part_number": "DEMO-SUS-008",
+    "make": "Škoda",
+    "model": "Octavia",
+    "compatibility": "Octavia III · 2013–2020",
+    "asset": "part-8.svg"
+  },
+  {
+    "type": "part",
+    "title": {
+      "lt": "Generatorius",
+      "en": "Alternator",
+      "ru": "Генератор"
+    },
+    "description": {
+      "lt": "Naudotas generatorius. Suderinkite galią, skriemulį ir jungties tipą.\nPavyzdinis įrašas ir iliustracija. Kaina, likutis ir suderinamumas skirti demonstracijai.",
+      "en": "Used alternator. Confirm output, pulley, and connector type.\nSample listing with an illustration. Price, stock, and compatibility are for demonstration.",
+      "ru": "Подержанный генератор. Уточните мощность, шкив и разъём.\nПример с иллюстрацией. Цена, остаток и совместимость указаны для демонстрации."
+    },
+    "category": "Electrical",
+    "condition": "used",
+    "price": 110,
+    "stock": 2,
+    "part_number": "DEMO-ELC-009",
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "compatibility": "W204 · patvirtinti / confirm",
+    "asset": "part-9.svg"
+  },
+  {
+    "type": "part",
+    "title": {
+      "lt": "Aušinimo radiatorius",
+      "en": "Cooling radiator",
+      "ru": "Радиатор охлаждения"
+    },
+    "description": {
+      "lt": "Variklio aušinimo radiatorius. Nurodykite variklį ir pavarų dėžę tinkamai versijai parinkti.\nPavyzdinis įrašas ir iliustracija. Kaina, likutis ir suderinamumas skirti demonstracijai.",
+      "en": "Engine cooling radiator. Provide engine and gearbox details to select the correct version.\nSample listing with an illustration. Price, stock, and compatibility are for demonstration.",
+      "ru": "Радиатор охлаждения двигателя. Укажите двигатель и коробку передач для подбора.\nПример с иллюстрацией. Цена, остаток и совместимость указаны для демонстрации."
+    },
+    "category": "Cooling",
+    "condition": "new",
+    "price": 89,
+    "stock": 4,
+    "part_number": "DEMO-CLG-010",
+    "make": "Volvo",
+    "model": "V60",
+    "compatibility": "V60 I · patvirtinti / confirm",
+    "asset": "part-10.svg"
+  },
+  {
+    "type": "part",
+    "title": {
+      "lt": "Priekinis buferis",
+      "en": "Front bumper",
+      "ru": "Передний бампер"
+    },
+    "description": {
+      "lt": "Naudotas priekinis buferis. Angas jutikliams, apiplovimui ir apdailą patvirtinkite prieš užsakydami.\nPavyzdinis įrašas ir iliustracija. Kaina, likutis ir suderinamumas skirti demonstracijai.",
+      "en": "Used front bumper. Confirm sensor openings, washers, and trim before ordering.\nSample listing with an illustration. Price, stock, and compatibility are for demonstration.",
+      "ru": "Подержанный передний бампер. Уточните отверстия для датчиков, омывателей и отделку.\nПример с иллюстрацией. Цена, остаток и совместимость указаны для демонстрации."
+    },
+    "category": "Bodywork",
+    "condition": "used",
+    "price": 145,
+    "stock": 1,
+    "part_number": "DEMO-BDY-011",
+    "make": "Volkswagen",
+    "model": "Golf",
+    "compatibility": "Golf VII · patvirtinti / confirm",
+    "asset": "part-11.svg"
+  },
+  {
+    "type": "part",
+    "title": {
+      "lt": "Sankabos komplektas",
+      "en": "Clutch kit",
+      "ru": "Комплект сцепления"
+    },
+    "description": {
+      "lt": "Sankabos komplektas mechaninei pavarų dėžei. Komplektaciją ir suderinamumą patvirtinsime telefonu.\nPavyzdinis įrašas ir iliustracija. Kaina, likutis ir suderinamumas skirti demonstracijai.",
+      "en": "Clutch kit for a manual gearbox. We will confirm kit contents and compatibility by phone.\nSample listing with an illustration. Price, stock, and compatibility are for demonstration.",
+      "ru": "Комплект сцепления для механической коробки. Состав и совместимость уточняются по телефону.\nПример с иллюстрацией. Цена, остаток и совместимость указаны для демонстрации."
+    },
+    "category": "Transmission",
+    "condition": "new",
+    "price": 189,
+    "stock": 3,
+    "part_number": "DEMO-TRN-012",
+    "make": "Ford",
+    "model": "Focus",
+    "compatibility": "Focus III · mechaninė / manual",
+    "asset": "part-12.svg"
+  },
+  {
+    "type": "car",
+    "title": {
+      "lt": "Chevrolet Camaro",
+      "en": "Chevrolet Camaro",
+      "ru": "Chevrolet Camaro"
+    },
+    "description": {
+      "lt": "Chevrolet Camaro. Pavyzdinė paros nuomos kaina – €95. Susisiekite ir sutarkite dėl apsilankymo vietoje; terminus, užstatą ir prieinamumą patvirtinsime asmeniškai.\nPavyzdinis automobilis ir specifikacijos. Nuotrauka iliustracinė, tai nėra realaus nuomojamo automobilio pasiūlymas.",
+      "en": "Chevrolet Camaro. Sample daily rental rate: €95. Contact us to arrange a shop visit; availability, deposit, and rental terms are confirmed in person.\nDemonstration vehicle and specifications. Representative photo; this is not an offer of an actual rental vehicle.",
+      "ru": "Chevrolet Camaro. Примерная стоимость аренды: €95 в сутки. Свяжитесь с нами для визита; наличие, залог и условия уточняются лично.\nДемонстрационный автомобиль и характеристики. Иллюстративное фото; это не предложение реального автомобиля."
+    },
+    "category": "Coupé",
+    "condition": "used",
+    "price": 95,
+    "stock": 1,
+    "part_number": "DEMO-CAR-001",
+    "make": "Chevrolet",
+    "model": "Camaro",
+    "year": 2018,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "asset": "car-1.jpg"
+  },
+  {
+    "type": "car",
+    "title": {
+      "lt": "Porsche Panamera",
+      "en": "Porsche Panamera",
+      "ru": "Porsche Panamera"
+    },
+    "description": {
+      "lt": "Porsche Panamera. Pavyzdinė paros nuomos kaina – €150. Susisiekite ir sutarkite dėl apsilankymo vietoje; terminus, užstatą ir prieinamumą patvirtinsime asmeniškai.\nPavyzdinis automobilis ir specifikacijos. Nuotrauka iliustracinė, tai nėra realaus nuomojamo automobilio pasiūlymas.",
+      "en": "Porsche Panamera. Sample daily rental rate: €150. Contact us to arrange a shop visit; availability, deposit, and rental terms are confirmed in person.\nDemonstration vehicle and specifications. Representative photo; this is not an offer of an actual rental vehicle.",
+      "ru": "Porsche Panamera. Примерная стоимость аренды: €150 в сутки. Свяжитесь с нами для визита; наличие, залог и условия уточняются лично.\nДемонстрационный автомобиль и характеристики. Иллюстративное фото; это не предложение реального автомобиля."
+    },
+    "category": "Sedan",
+    "condition": "used",
+    "price": 150,
+    "stock": 1,
+    "part_number": "DEMO-CAR-002",
+    "make": "Porsche",
+    "model": "Panamera",
+    "year": 2019,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "asset": "car-2.jpg"
+  },
+  {
+    "type": "car",
+    "title": {
+      "lt": "BMW 4 Series Coupé",
+      "en": "BMW 4 Series Coupé",
+      "ru": "BMW 4 Series Coupé"
+    },
+    "description": {
+      "lt": "BMW 4 Series Coupé. Pavyzdinė paros nuomos kaina – €79. Susisiekite ir sutarkite dėl apsilankymo vietoje; terminus, užstatą ir prieinamumą patvirtinsime asmeniškai.\nPavyzdinis automobilis ir specifikacijos. Nuotrauka iliustracinė, tai nėra realaus nuomojamo automobilio pasiūlymas.",
+      "en": "BMW 4 Series Coupé. Sample daily rental rate: €79. Contact us to arrange a shop visit; availability, deposit, and rental terms are confirmed in person.\nDemonstration vehicle and specifications. Representative photo; this is not an offer of an actual rental vehicle.",
+      "ru": "BMW 4 Series Coupé. Примерная стоимость аренды: €79 в сутки. Свяжитесь с нами для визита; наличие, залог и условия уточняются лично.\nДемонстрационный автомобиль и характеристики. Иллюстративное фото; это не предложение реального автомобиля."
+    },
+    "category": "Coupé",
+    "condition": "used",
+    "price": 79,
+    "stock": 1,
+    "part_number": "DEMO-CAR-003",
+    "make": "BMW",
+    "model": "4 Series Coupé",
+    "year": 2018,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "asset": "car-3.jpg"
+  },
+  {
+    "type": "car",
+    "title": {
+      "lt": "McLaren 720S",
+      "en": "McLaren 720S",
+      "ru": "McLaren 720S"
+    },
+    "description": {
+      "lt": "McLaren 720S. Pavyzdinė paros nuomos kaina – €390. Susisiekite ir sutarkite dėl apsilankymo vietoje; terminus, užstatą ir prieinamumą patvirtinsime asmeniškai.\nPavyzdinis automobilis ir specifikacijos. Nuotrauka iliustracinė, tai nėra realaus nuomojamo automobilio pasiūlymas.",
+      "en": "McLaren 720S. Sample daily rental rate: €390. Contact us to arrange a shop visit; availability, deposit, and rental terms are confirmed in person.\nDemonstration vehicle and specifications. Representative photo; this is not an offer of an actual rental vehicle.",
+      "ru": "McLaren 720S. Примерная стоимость аренды: €390 в сутки. Свяжитесь с нами для визита; наличие, залог и условия уточняются лично.\nДемонстрационный автомобиль и характеристики. Иллюстративное фото; это не предложение реального автомобиля."
+    },
+    "category": "Sports car",
+    "condition": "used",
+    "price": 390,
+    "stock": 1,
+    "part_number": "DEMO-CAR-004",
+    "make": "McLaren",
+    "model": "720S",
+    "year": 2019,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "asset": "car-4.jpg"
+  },
+  {
+    "type": "car",
+    "title": {
+      "lt": "Chevrolet Camaro Sport",
+      "en": "Chevrolet Camaro Sport",
+      "ru": "Chevrolet Camaro Sport"
+    },
+    "description": {
+      "lt": "Chevrolet Camaro Sport. Pavyzdinė paros nuomos kaina – €110. Susisiekite ir sutarkite dėl apsilankymo vietoje; terminus, užstatą ir prieinamumą patvirtinsime asmeniškai.\nPavyzdinis automobilis ir specifikacijos. Nuotrauka iliustracinė, tai nėra realaus nuomojamo automobilio pasiūlymas.",
+      "en": "Chevrolet Camaro Sport. Sample daily rental rate: €110. Contact us to arrange a shop visit; availability, deposit, and rental terms are confirmed in person.\nDemonstration vehicle and specifications. Representative photo; this is not an offer of an actual rental vehicle.",
+      "ru": "Chevrolet Camaro Sport. Примерная стоимость аренды: €110 в сутки. Свяжитесь с нами для визита; наличие, залог и условия уточняются лично.\nДемонстрационный автомобиль и характеристики. Иллюстративное фото; это не предложение реального автомобиля."
+    },
+    "category": "Coupé",
+    "condition": "used",
+    "price": 110,
+    "stock": 1,
+    "part_number": "DEMO-CAR-005",
+    "make": "Chevrolet",
+    "model": "Camaro Sport",
+    "year": 2020,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "asset": "car-5.jpg"
+  },
+  {
+    "type": "car",
+    "title": {
+      "lt": "BMW 2 Series Coupé",
+      "en": "BMW 2 Series Coupé",
+      "ru": "BMW 2 Series Coupé"
+    },
+    "description": {
+      "lt": "BMW 2 Series Coupé. Pavyzdinė paros nuomos kaina – €89. Susisiekite ir sutarkite dėl apsilankymo vietoje; terminus, užstatą ir prieinamumą patvirtinsime asmeniškai.\nPavyzdinis automobilis ir specifikacijos. Nuotrauka iliustracinė, tai nėra realaus nuomojamo automobilio pasiūlymas.",
+      "en": "BMW 2 Series Coupé. Sample daily rental rate: €89. Contact us to arrange a shop visit; availability, deposit, and rental terms are confirmed in person.\nDemonstration vehicle and specifications. Representative photo; this is not an offer of an actual rental vehicle.",
+      "ru": "BMW 2 Series Coupé. Примерная стоимость аренды: €89 в сутки. Свяжитесь с нами для визита; наличие, залог и условия уточняются лично.\nДемонстрационный автомобиль и характеристики. Иллюстративное фото; это не предложение реального автомобиля."
+    },
+    "category": "Coupé",
+    "condition": "used",
+    "price": 89,
+    "stock": 1,
+    "part_number": "DEMO-CAR-006",
+    "make": "BMW",
+    "model": "2 Series Coupé",
+    "year": 2019,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "asset": "car-6.jpg"
+  },
+  {
+    "type": "car",
+    "title": {
+      "lt": "Fiat 500",
+      "en": "Fiat 500",
+      "ru": "Fiat 500"
+    },
+    "description": {
+      "lt": "Fiat 500. Pavyzdinė paros nuomos kaina – €29. Susisiekite ir sutarkite dėl apsilankymo vietoje; terminus, užstatą ir prieinamumą patvirtinsime asmeniškai.\nPavyzdinis automobilis ir specifikacijos. Nuotrauka iliustracinė, tai nėra realaus nuomojamo automobilio pasiūlymas.",
+      "en": "Fiat 500. Sample daily rental rate: €29. Contact us to arrange a shop visit; availability, deposit, and rental terms are confirmed in person.\nDemonstration vehicle and specifications. Representative photo; this is not an offer of an actual rental vehicle.",
+      "ru": "Fiat 500. Примерная стоимость аренды: €29 в сутки. Свяжитесь с нами для визита; наличие, залог и условия уточняются лично.\nДемонстрационный автомобиль и характеристики. Иллюстративное фото; это не предложение реального автомобиля."
+    },
+    "category": "Hatchback",
+    "condition": "used",
+    "price": 29,
+    "stock": 1,
+    "part_number": "DEMO-CAR-007",
+    "make": "Fiat",
+    "model": "500",
+    "year": 2020,
+    "transmission": "Manual",
+    "fuel": "Petrol",
+    "asset": "car-7.jpg"
+  },
+  {
+    "type": "car",
+    "title": {
+      "lt": "Ford Expedition",
+      "en": "Ford Expedition",
+      "ru": "Ford Expedition"
+    },
+    "description": {
+      "lt": "Ford Expedition. Pavyzdinė paros nuomos kaina – €99. Susisiekite ir sutarkite dėl apsilankymo vietoje; terminus, užstatą ir prieinamumą patvirtinsime asmeniškai.\nPavyzdinis automobilis ir specifikacijos. Nuotrauka iliustracinė, tai nėra realaus nuomojamo automobilio pasiūlymas.",
+      "en": "Ford Expedition. Sample daily rental rate: €99. Contact us to arrange a shop visit; availability, deposit, and rental terms are confirmed in person.\nDemonstration vehicle and specifications. Representative photo; this is not an offer of an actual rental vehicle.",
+      "ru": "Ford Expedition. Примерная стоимость аренды: €99 в сутки. Свяжитесь с нами для визита; наличие, залог и условия уточняются лично.\nДемонстрационный автомобиль и характеристики. Иллюстративное фото; это не предложение реального автомобиля."
+    },
+    "category": "SUV",
+    "condition": "used",
+    "price": 99,
+    "stock": 1,
+    "part_number": "DEMO-CAR-008",
+    "make": "Ford",
+    "model": "Expedition",
+    "year": 2021,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "asset": "car-8.jpg"
+  },
+  {
+    "type": "car",
+    "title": {
+      "lt": "Lamborghini Huracán",
+      "en": "Lamborghini Huracán",
+      "ru": "Lamborghini Huracán"
+    },
+    "description": {
+      "lt": "Lamborghini Huracán. Pavyzdinė paros nuomos kaina – €390. Susisiekite ir sutarkite dėl apsilankymo vietoje; terminus, užstatą ir prieinamumą patvirtinsime asmeniškai.\nPavyzdinis automobilis ir specifikacijos. Nuotrauka iliustracinė, tai nėra realaus nuomojamo automobilio pasiūlymas.",
+      "en": "Lamborghini Huracán. Sample daily rental rate: €390. Contact us to arrange a shop visit; availability, deposit, and rental terms are confirmed in person.\nDemonstration vehicle and specifications. Representative photo; this is not an offer of an actual rental vehicle.",
+      "ru": "Lamborghini Huracán. Примерная стоимость аренды: €390 в сутки. Свяжитесь с нами для визита; наличие, залог и условия уточняются лично.\nДемонстрационный автомобиль и характеристики. Иллюстративное фото; это не предложение реального автомобиля."
+    },
+    "category": "Sports car",
+    "condition": "used",
+    "price": 390,
+    "stock": 1,
+    "part_number": "DEMO-CAR-009",
+    "make": "Lamborghini",
+    "model": "Huracán",
+    "year": 2020,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "asset": "car-9.jpg"
+  },
+  {
+    "type": "car",
+    "title": {
+      "lt": "Ferrari 458",
+      "en": "Ferrari 458",
+      "ru": "Ferrari 458"
+    },
+    "description": {
+      "lt": "Ferrari 458. Pavyzdinė paros nuomos kaina – €350. Susisiekite ir sutarkite dėl apsilankymo vietoje; terminus, užstatą ir prieinamumą patvirtinsime asmeniškai.\nPavyzdinis automobilis ir specifikacijos. Nuotrauka iliustracinė, tai nėra realaus nuomojamo automobilio pasiūlymas.",
+      "en": "Ferrari 458. Sample daily rental rate: €350. Contact us to arrange a shop visit; availability, deposit, and rental terms are confirmed in person.\nDemonstration vehicle and specifications. Representative photo; this is not an offer of an actual rental vehicle.",
+      "ru": "Ferrari 458. Примерная стоимость аренды: €350 в сутки. Свяжитесь с нами для визита; наличие, залог и условия уточняются лично.\nДемонстрационный автомобиль и характеристики. Иллюстративное фото; это не предложение реального автомобиля."
+    },
+    "category": "Sports car",
+    "condition": "used",
+    "price": 350,
+    "stock": 1,
+    "part_number": "DEMO-CAR-010",
+    "make": "Ferrari",
+    "model": "458",
+    "year": 2015,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "asset": "car-10.jpg"
+  },
+  {
+    "type": "car",
+    "title": {
+      "lt": "Mitsubishi Pajero",
+      "en": "Mitsubishi Pajero",
+      "ru": "Mitsubishi Pajero"
+    },
+    "description": {
+      "lt": "Mitsubishi Pajero. Pavyzdinė paros nuomos kaina – €55. Susisiekite ir sutarkite dėl apsilankymo vietoje; terminus, užstatą ir prieinamumą patvirtinsime asmeniškai.\nPavyzdinis automobilis ir specifikacijos. Nuotrauka iliustracinė, tai nėra realaus nuomojamo automobilio pasiūlymas.",
+      "en": "Mitsubishi Pajero. Sample daily rental rate: €55. Contact us to arrange a shop visit; availability, deposit, and rental terms are confirmed in person.\nDemonstration vehicle and specifications. Representative photo; this is not an offer of an actual rental vehicle.",
+      "ru": "Mitsubishi Pajero. Примерная стоимость аренды: €55 в сутки. Свяжитесь с нами для визита; наличие, залог и условия уточняются лично.\nДемонстрационный автомобиль и характеристики. Иллюстративное фото; это не предложение реального автомобиля."
+    },
+    "category": "SUV",
+    "condition": "used",
+    "price": 55,
+    "stock": 1,
+    "part_number": "DEMO-CAR-011",
+    "make": "Mitsubishi",
+    "model": "Pajero",
+    "year": 2002,
+    "transmission": "Automatic",
+    "fuel": "Diesel",
+    "asset": "car-11.jpg"
+  },
+  {
+    "type": "car",
+    "title": {
+      "lt": "Honda CR-V",
+      "en": "Honda CR-V",
+      "ru": "Honda CR-V"
+    },
+    "description": {
+      "lt": "Honda CR-V. Pavyzdinė paros nuomos kaina – €59. Susisiekite ir sutarkite dėl apsilankymo vietoje; terminus, užstatą ir prieinamumą patvirtinsime asmeniškai.\nPavyzdinis automobilis ir specifikacijos. Nuotrauka iliustracinė, tai nėra realaus nuomojamo automobilio pasiūlymas.",
+      "en": "Honda CR-V. Sample daily rental rate: €59. Contact us to arrange a shop visit; availability, deposit, and rental terms are confirmed in person.\nDemonstration vehicle and specifications. Representative photo; this is not an offer of an actual rental vehicle.",
+      "ru": "Honda CR-V. Примерная стоимость аренды: €59 в сутки. Свяжитесь с нами для визита; наличие, залог и условия уточняются лично.\nДемонстрационный автомобиль и характеристики. Иллюстративное фото; это не предложение реального автомобиля."
+    },
+    "category": "SUV",
+    "condition": "used",
+    "price": 59,
+    "stock": 1,
+    "part_number": "DEMO-CAR-012",
+    "make": "Honda",
+    "model": "CR-V",
+    "year": 2017,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "asset": "car-12.jpg"
+  },
+  {
+    "type": "service",
+    "title": {
+      "lt": "Diagnostika",
+      "en": "Diagnostics",
+      "ru": "Диагностика"
+    },
+    "description": {
+      "lt": "Kompiuterinė diagnostika ir klaidų kodų peržiūra. Aptariame rezultatus bei tolesnius patikrinimus.\nPavyzdinė paslauga ir orientacinė darbų kaina. Medžiagas, darbų apimtį ir galutinę kainą patvirtinkite telefonu. Iliustracija skirta demonstracijai.",
+      "en": "Computer diagnostics and fault-code review. We discuss the results and further checks.\nSample service and indicative labor price. Confirm materials, scope, and final price by phone. Demonstration illustration.",
+      "ru": "Компьютерная диагностика и проверка кодов ошибок. Обсудим результаты и дальнейшие проверки.\nПример услуги и ориентировочная стоимость работы. Материалы, объём и итоговую цену уточните по телефону. Иллюстрация для демонстрации."
+    },
+    "category": "Diagnostics",
+    "condition": "new",
+    "price": 30,
+    "stock": 1,
+    "service_key": "Diagnostics",
+    "asset": "service-1.svg"
+  },
+  {
+    "type": "service",
+    "title": {
+      "lt": "Automobilio priežiūra",
+      "en": "Vehicle maintenance",
+      "ru": "Обслуживание автомобиля"
+    },
+    "description": {
+      "lt": "Alyvos, filtrų ir pagrindinių eksploatacinių skysčių patikra bei keitimas pagal sutartą darbų apimtį.\nPavyzdinė paslauga ir orientacinė darbų kaina. Medžiagas, darbų apimtį ir galutinę kainą patvirtinkite telefonu. Iliustracija skirta demonstracijai.",
+      "en": "Oil, filter, and essential fluid checks and replacement according to the agreed scope.\nSample service and indicative labor price. Confirm materials, scope, and final price by phone. Demonstration illustration.",
+      "ru": "Проверка и замена масла, фильтров и основных жидкостей по согласованному перечню работ.\nПример услуги и ориентировочная стоимость работы. Материалы, объём и итоговую цену уточните по телефону. Иллюстрация для демонстрации."
+    },
+    "category": "Maintenance",
+    "condition": "new",
+    "price": 45,
+    "stock": 1,
+    "service_key": "Vehicle maintenance",
+    "asset": "service-2.svg"
+  },
+  {
+    "type": "service",
+    "title": {
+      "lt": "Stabdžių remontas",
+      "en": "Brake repairs",
+      "ru": "Ремонт тормозов"
+    },
+    "description": {
+      "lt": "Stabdžių diskų, kaladėlių ir mechanizmų patikra. Remonto apimtį suderiname po apžiūros.\nPavyzdinė paslauga ir orientacinė darbų kaina. Medžiagas, darbų apimtį ir galutinę kainą patvirtinkite telefonu. Iliustracija skirta demonstracijai.",
+      "en": "Inspection of discs, pads, and brake mechanisms. Repair scope is agreed after inspection.\nSample service and indicative labor price. Confirm materials, scope, and final price by phone. Demonstration illustration.",
+      "ru": "Проверка дисков, колодок и тормозных механизмов. Объём ремонта согласуется после осмотра.\nПример услуги и ориентировочная стоимость работы. Материалы, объём и итоговую цену уточните по телефону. Иллюстрация для демонстрации."
+    },
+    "category": "Brakes",
+    "condition": "new",
+    "price": 40,
+    "stock": 1,
+    "service_key": "Brake repairs",
+    "asset": "service-3.svg"
+  },
+  {
+    "type": "service",
+    "title": {
+      "lt": "Padangų montavimas",
+      "en": "Tyre fitting",
+      "ru": "Шиномонтаж"
+    },
+    "description": {
+      "lt": "Padangų keitimas ir ratų balansavimas. Skambindami nurodykite ratų dydį ir pageidaujamą laiką.\nPavyzdinė paslauga ir orientacinė darbų kaina. Medžiagas, darbų apimtį ir galutinę kainą patvirtinkite telefonu. Iliustracija skirta demonstracijai.",
+      "en": "Tyre replacement and wheel balancing. Provide your wheel size and preferred time when calling.\nSample service and indicative labor price. Confirm materials, scope, and final price by phone. Demonstration illustration.",
+      "ru": "Замена шин и балансировка колёс. При звонке укажите размер колёс и удобное время.\nПример услуги и ориентировочная стоимость работы. Материалы, объём и итоговую цену уточните по телефону. Иллюстрация для демонстрации."
+    },
+    "category": "Wheels",
+    "condition": "new",
+    "price": 35,
+    "stock": 1,
+    "service_key": "Tyre fitting",
+    "asset": "service-4.svg"
+  },
+  {
+    "type": "service",
+    "title": {
+      "lt": "Pakabos remontas",
+      "en": "Suspension repairs",
+      "ru": "Ремонт подвески"
+    },
+    "description": {
+      "lt": "Pakabos elementų patikra, triukšmo priežasties nustatymas ir suderintų detalių keitimas.\nPavyzdinė paslauga ir orientacinė darbų kaina. Medžiagas, darbų apimtį ir galutinę kainą patvirtinkite telefonu. Iliustracija skirta demonstracijai.",
+      "en": "Suspension inspection, noise diagnosis, and replacement of agreed components.\nSample service and indicative labor price. Confirm materials, scope, and final price by phone. Demonstration illustration.",
+      "ru": "Проверка подвески, поиск причин шума и замена согласованных компонентов.\nПример услуги и ориентировочная стоимость работы. Материалы, объём и итоговую цену уточните по телефону. Иллюстрация для демонстрации."
+    },
+    "category": "Suspension",
+    "condition": "new",
+    "price": 45,
+    "stock": 1,
+    "service_key": "Suspension repairs",
+    "asset": "service-5.svg"
+  },
+  {
+    "type": "service",
+    "title": {
+      "lt": "Variklio patikra",
+      "en": "Engine inspection",
+      "ru": "Проверка двигателя"
+    },
+    "description": {
+      "lt": "Variklio darbo įvertinimas, nuotėkių apžiūra ir tolesnių diagnostikos darbų aptarimas.\nPavyzdinė paslauga ir orientacinė darbų kaina. Medžiagas, darbų apimtį ir galutinę kainą patvirtinkite telefonu. Iliustracija skirta demonstracijai.",
+      "en": "Assessment of engine operation, leak inspection, and discussion of further diagnostics.\nSample service and indicative labor price. Confirm materials, scope, and final price by phone. Demonstration illustration.",
+      "ru": "Оценка работы двигателя, проверка утечек и обсуждение дальнейшей диагностики.\nПример услуги и ориентировочная стоимость работы. Материалы, объём и итоговую цену уточните по телефону. Иллюстрация для демонстрации."
+    },
+    "category": "Engine",
+    "condition": "new",
+    "price": 50,
+    "stock": 1,
+    "service_key": "Engine inspection",
+    "asset": "service-6.svg"
+  },
+  {
+    "type": "service",
+    "title": {
+      "lt": "Kondicionieriaus priežiūra",
+      "en": "Air conditioning service",
+      "ru": "Обслуживание кондиционера"
+    },
+    "description": {
+      "lt": "Kondicionavimo sistemos veikimo patikra. Darbus ir reikiamas medžiagas suderiname po įvertinimo.\nPavyzdinė paslauga ir orientacinė darbų kaina. Medžiagas, darbų apimtį ir galutinę kainą patvirtinkite telefonu. Iliustracija skirta demonstracijai.",
+      "en": "Air conditioning performance check. Work and required materials are agreed after assessment.\nSample service and indicative labor price. Confirm materials, scope, and final price by phone. Demonstration illustration.",
+      "ru": "Проверка работы кондиционера. Работы и материалы согласуются после оценки.\nПример услуги и ориентировочная стоимость работы. Материалы, объём и итоговую цену уточните по телефону. Иллюстрация для демонстрации."
+    },
+    "category": "Climate",
+    "condition": "new",
+    "price": 55,
+    "stock": 1,
+    "service_key": "Air conditioning service",
+    "asset": "service-7.svg"
+  },
+  {
+    "type": "service",
+    "title": {
+      "lt": "Ratų geometrijos patikra",
+      "en": "Wheel alignment check",
+      "ru": "Проверка развал-схождения"
+    },
+    "description": {
+      "lt": "Ratų geometrijos ir padangų dėvėjimosi įvertinimas. Dėl reguliavimo galimybių teiraukitės telefonu.\nPavyzdinė paslauga ir orientacinė darbų kaina. Medžiagas, darbų apimtį ir galutinę kainą patvirtinkite telefonu. Iliustracija skirta demonstracijai.",
+      "en": "Wheel geometry and tyre wear assessment. Call to discuss adjustment options.\nSample service and indicative labor price. Confirm materials, scope, and final price by phone. Demonstration illustration.",
+      "ru": "Проверка геометрии колёс и износа шин. Возможность регулировки уточняйте по телефону.\nПример услуги и ориентировочная стоимость работы. Материалы, объём и итоговую цену уточните по телефону. Иллюстрация для демонстрации."
+    },
+    "category": "Wheels",
+    "condition": "new",
+    "price": 35,
+    "stock": 1,
+    "service_key": "Wheel alignment check",
+    "asset": "service-8.svg"
+  },
+  {
+    "type": "service",
+    "title": {
+      "lt": "Akumuliatoriaus patikra",
+      "en": "Battery testing",
+      "ru": "Проверка аккумулятора"
+    },
+    "description": {
+      "lt": "Akumuliatoriaus būklės ir įkrovimo sistemos patikra. Aptariame užvedimo problemas ir galimus sprendimus.\nPavyzdinė paslauga ir orientacinė darbų kaina. Medžiagas, darbų apimtį ir galutinę kainą patvirtinkite telefonu. Iliustracija skirta demonstracijai.",
+      "en": "Battery health and charging system checks. We discuss starting issues and possible solutions.\nSample service and indicative labor price. Confirm materials, scope, and final price by phone. Demonstration illustration.",
+      "ru": "Проверка аккумулятора и системы зарядки. Обсудим проблемы запуска и возможные решения.\nПример услуги и ориентировочная стоимость работы. Материалы, объём и итоговую цену уточните по телефону. Иллюстрация для демонстрации."
+    },
+    "category": "Electrical",
+    "condition": "new",
+    "price": 15,
+    "stock": 1,
+    "service_key": "Battery testing",
+    "asset": "service-9.svg"
+  },
+  {
+    "type": "service",
+    "title": {
+      "lt": "Aušinimo sistemos remontas",
+      "en": "Cooling system repairs",
+      "ru": "Ремонт системы охлаждения"
+    },
+    "description": {
+      "lt": "Radiatoriaus, žarnų ir aušinimo skysčio nuotėkių patikra. Darbus patvirtiname po apžiūros.\nPavyzdinė paslauga ir orientacinė darbų kaina. Medžiagas, darbų apimtį ir galutinę kainą patvirtinkite telefonu. Iliustracija skirta demonstracijai.",
+      "en": "Radiator, hose, and coolant leak inspection. Work is confirmed following an assessment.\nSample service and indicative labor price. Confirm materials, scope, and final price by phone. Demonstration illustration.",
+      "ru": "Проверка радиатора, патрубков и утечек охлаждающей жидкости. Работы согласуются после осмотра.\nПример услуги и ориентировочная стоимость работы. Материалы, объём и итоговую цену уточните по телефону. Иллюстрация для демонстрации."
+    },
+    "category": "Cooling",
+    "condition": "new",
+    "price": 45,
+    "stock": 1,
+    "service_key": "Cooling system repairs",
+    "asset": "service-10.svg"
+  },
+  {
+    "type": "service",
+    "title": {
+      "lt": "Sankabos keitimas",
+      "en": "Clutch replacement",
+      "ru": "Замена сцепления"
+    },
+    "description": {
+      "lt": "Sankabos veikimo įvertinimas ir keitimo darbų planavimas. Nurodykite modelį ir pavarų dėžę.\nPavyzdinė paslauga ir orientacinė darbų kaina. Medžiagas, darbų apimtį ir galutinę kainą patvirtinkite telefonu. Iliustracija skirta demonstracijai.",
+      "en": "Clutch assessment and replacement planning. Provide your vehicle model and gearbox details.\nSample service and indicative labor price. Confirm materials, scope, and final price by phone. Demonstration illustration.",
+      "ru": "Проверка сцепления и планирование замены. Укажите модель автомобиля и коробку передач.\nПример услуги и ориентировочная стоимость работы. Материалы, объём и итоговую цену уточните по телефону. Иллюстрация для демонстрации."
+    },
+    "category": "Transmission",
+    "condition": "new",
+    "price": 180,
+    "stock": 1,
+    "service_key": "Clutch replacement",
+    "asset": "service-11.svg"
+  },
+  {
+    "type": "service",
+    "title": {
+      "lt": "Išmetimo sistemos remontas",
+      "en": "Exhaust repairs",
+      "ru": "Ремонт выхлопной системы"
+    },
+    "description": {
+      "lt": "Išmetimo sistemos sandarumo, laikiklių ir būklės patikra. Remonto sprendimą aptariame individualiai.\nPavyzdinė paslauga ir orientacinė darbų kaina. Medžiagas, darbų apimtį ir galutinę kainą patvirtinkite telefonu. Iliustracija skirta demonstracijai.",
+      "en": "Exhaust leak, mounting, and condition inspection. Repair options are discussed individually.\nSample service and indicative labor price. Confirm materials, scope, and final price by phone. Demonstration illustration.",
+      "ru": "Проверка герметичности, креплений и состояния выхлопной системы. Решение обсуждается индивидуально.\nПример услуги и ориентировочная стоимость работы. Материалы, объём и итоговую цену уточните по телефону. Иллюстрация для демонстрации."
+    },
+    "category": "Exhaust",
+    "condition": "new",
+    "price": 35,
+    "stock": 1,
+    "service_key": "Exhaust repairs",
+    "asset": "service-12.svg"
+  }
+]
