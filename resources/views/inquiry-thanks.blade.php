@@ -1,0 +1,2 @@
+@extends('layout')
+@section('content')<section class="section"><div class="container empty"><h1>{{ session('inquiry_reference') ? __('business.received') : __('site.no_request') }}</h1>@if(session('inquiry_reference'))<p>{{ __('business.received_text') }}</p><p>{{ __('site.reference') }}: <strong>{{ session('inquiry_reference') }}</strong></p>@endif<a class="button yellow" href="{{ route('home',$locale) }}">{{ __('site.home') }}</a></div></section>@endsection

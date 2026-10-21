@@ -13,23 +13,49 @@ class ShopController extends Controller
 {
     public function home()
     {
-        return view('home', ['parts'=>Listing::where('type','part')->where('is_active',true)->latest()->take(4)->get()]);
+        return view('home', ['parts'=>Listing::with('fitments')->where('type','part')->where('is_active',true)->latest()->take(4)->get()]);
     }
     public function catalog(Request $request, string $locale, string $section)
     {
-        $type = ['parts'=>'part','rentals'=>'car','services'=>'service'][$section] ?? abort(404);
-        $filters = $request->validate(['q'=>'nullable|string|max:100','category'=>'nullable|string|max:100','make'=>'nullable|string|max:100','condition'=>['nullable',Rule::in(['new','used'])]]);
-        $base = Listing::where('type',$type)->where('is_active',true);
+        $type = ['parts'=>'part','rentals'=>'car','services'=>'service','dismantling'=>'dismantling','cars-for-sale'=>'sale'][$section] ?? abort(404);
+        $filters = $request->validate(['q'=>'nullable|string|max:100','category'=>'nullable|string|max:100','make'=>'nullable|string|max:100','model'=>'nullable|string|max:100','year'=>'nullable|integer|min:1900|max:2100','condition'=>['nullable',Rule::in(['new','used'])]]);
+        $base = Listing::with('fitments')->where('type',$type)->where('is_active',true);
         $categories = (clone $base)->whereNotNull('category')->distinct()->orderBy('category')->pluck('category');
         $makes = (clone $base)->whereNotNull('make')->distinct()->orderBy('make')->pluck('make');
-        foreach (['category','make','condition'] as $key) if (!empty($filters[$key])) $base->where($key,$filters[$key]);
+        if ($type==='part') {
+            $makes = $makes->merge(\App\Models\VehicleFitment::whereHas('listing', fn ($q) => $q->where('is_active',true))->distinct()->pluck('make'))->unique()->sort()->values();
+        }
+        $models = (clone $base)->when(!empty($filters['make']), fn ($q) => $q->where('make',$filters['make']))->whereNotNull('model')->distinct()->orderBy('model')->pluck('model');
+        if ($type==='part') {
+            $models = $models->merge(\App\Models\VehicleFitment::whereHas('listing', fn ($q) => $q->where('is_active',true))->when(!empty($filters['make']), fn ($q) => $q->where('make',$filters['make']))->pluck('model'))->unique()->sort()->values();
+        }
+        foreach (['category','condition'] as $key) {
+            if (!empty($filters[$key])) { $base->where($key,$filters[$key]); }
+        }
+        if (!empty($filters['make']) || !empty($filters['model']) || !empty($filters['year'])) {
+            $base->where(function ($query) use ($filters,$type): void {
+                $query->where(function ($direct) use ($filters): void {
+                    foreach (['make','model','year'] as $field) {
+                        if (!empty($filters[$field])) { $direct->where($field,$filters[$field]); }
+                    }
+                });
+                if ($type==='part') {
+                    $query->orWhereHas('fitments', function ($fitment) use ($filters): void {
+                        foreach (['make','model'] as $field) {
+                            if (!empty($filters[$field])) { $fitment->where($field,$filters[$field]); }
+                        }
+                        if (!empty($filters['year'])) { $fitment->where('year_from','<=',$filters['year'])->where('year_to','>=',$filters['year']); }
+                    });
+                }
+            });
+        }
         if (!empty($filters['q'])) {
             $needle = '%'.str_replace(['%','_'], ['\\%','\\_'], $filters['q']).'%';
             $base->where(function ($q) use ($needle) {
                 foreach (['title->lt','title->en','title->ru','part_number','oem_number','make','model','compatibility'] as $field) $q->orWhere($field,'like',$needle);
             });
         }
-        return view('catalog', ['listings'=>$base->latest()->paginate(12)->withQueryString(),'section'=>$section,'categories'=>$categories,'makes'=>$makes]);
+        return view('catalog', ['listings'=>$base->latest()->paginate(12)->withQueryString(),'section'=>$section,'categories'=>$categories,'makes'=>$makes,'models'=>$models]);
     }
     public function show(string $locale, Listing $listing)
     {
@@ -42,7 +68,7 @@ class ShopController extends Controller
         $data = $request->validate(['quantity'=>'required|integer|min:1|max:999']);
         $basket = session('basket',[]);
         $quantity = ($basket[$listing->id] ?? 0) + $data['quantity'];
-        if ($listing->price===null || $quantity>$listing->stock) return back()->withErrors(['basket'=>__('site.unavailable')]);
+        if ($listing->availability!=='available' || $listing->price===null || $quantity>$listing->stock) return back()->withErrors(['basket'=>__('site.unavailable')]);
         $basket[$listing->id] = $quantity;
         session(['basket'=>$basket]);
         return back()->with('success',__('site.added'));
@@ -50,7 +76,7 @@ class ShopController extends Controller
     public function basket()
     {
         $basket = session('basket',[]);
-        $listings = Listing::whereIn('id',array_keys($basket))->get();
+        $listings = Listing::withTrashed()->with('fitments')->whereIn('id',array_keys($basket))->get();
         return view('basket',compact('basket','listings'));
     }
     public function updateBasket(Request $request)
@@ -85,7 +111,7 @@ class ShopController extends Controller
             $items = [];
             foreach ($basket as $id=>$quantity) {
                 $part = $listings->get($id);
-                if (!$part || !$part->is_active || $part->type!=='part' || $part->stock<$quantity || $part->price===null) throw ValidationException::withMessages(['basket'=>__('site.unavailable')]);
+                if (!$part || !$part->is_active || $part->availability!=='available' || $part->type!=='part' || $part->stock<$quantity || $part->price===null) throw ValidationException::withMessages(['basket'=>__('site.unavailable')]);
                 $cents = (int) round((float)$part->price * 100);
                 $total += $cents*$quantity;
                 $items[] = ['listing_id'=>$id,'title'=>$part->translated('title'),'part_number'=>$part->part_number,'unit_price'=>$part->price,'quantity'=>$quantity];
@@ -95,6 +121,16 @@ class ShopController extends Controller
             $order->items()->createMany($items);
             return $order;
         });
+        $recipient = config('shop.notification_email');
+        if (filter_var($recipient,FILTER_VALIDATE_EMAIL)) {
+            try {
+                \Illuminate\Support\Facades\Mail::raw(__('business.notification_body',['reference'=>$order->reference]).' '.route('admin.order',$order), function ($mail) use ($recipient): void {
+                    $mail->to($recipient)->subject(__('business.notification_subject'));
+                });
+            } catch (\Throwable $exception) {
+                \Illuminate\Support\Facades\Log::warning('Order request notification failed.', ['order_id'=>$order->id]);
+            }
+        }
         session()->forget('basket');
         return redirect()->route('thanks',['locale'=>app()->getLocale()])->with('reference',$order->reference);
     }

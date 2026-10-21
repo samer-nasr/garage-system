@@ -34,7 +34,7 @@ class DemoCatalogSeeder extends Seeder
 
                 unset($entry['asset'], $entry['service_key']);
 
-                $listing = Listing::firstOrNew(['type' => $entry['type'], 'part_number' => $entry['part_number']]);
+                $listing = Listing::withTrashed()->firstOrNew(['type' => $entry['type'], 'part_number' => $entry['part_number']]);
 
                 if ($listing->exists && ! $listing->is_demo) {
                     continue;

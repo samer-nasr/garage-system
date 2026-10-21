@@ -19,7 +19,8 @@ if (!(Test-LocalPort 3307)) {
     if (!$ready) { throw 'MySQL did not start. Check work/mysql-data/*.err.' }
 }
 if (!(Test-LocalPort 8000)) {
-    Start-Process -FilePath $phpPath -ArgumentList @('-d','xdebug.mode=off','artisan','serve','--host=127.0.0.1','--port=8000') -WorkingDirectory $projectPath -WindowStyle Hidden -RedirectStandardOutput (Join-Path $projectPath 'work\preview.log') -RedirectStandardError (Join-Path $projectPath 'work\preview-error.log')
+    $env:PHP_INI_SCAN_DIR = Join-Path $projectPath 'config\php'
+    Start-Process -FilePath $phpPath -ArgumentList @('-d','xdebug.mode=off','artisan','serve','--host=127.0.0.1','--port=8000','--no-reload') -WorkingDirectory $projectPath -WindowStyle Hidden -RedirectStandardOutput (Join-Path $projectPath 'work\preview.log') -RedirectStandardError (Join-Path $projectPath 'work\preview-error.log')
 }
 Write-Output 'Website: http://127.0.0.1:8000/lt'
 Write-Output 'Admin: http://127.0.0.1:8000/admin/login'
