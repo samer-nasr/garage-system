@@ -29,5 +29,5 @@
 <input type="hidden" name="is_active" value="0"><label class="checkbox"><input type="checkbox" name="is_active" value="1" @checked(old('is_active',$listing->exists?$listing->is_active:true))>{{ __('admin.visible_on_site') }}</label>
 <input type="hidden" name="is_demo" value="0"><label class="checkbox"><input type="checkbox" name="is_demo" value="1" @checked(old('is_demo',$listing->is_demo))>{{ __('admin.demo') }}</label>
 <button class="button yellow">{{ __('admin.save') }} ↗</button></form>
-@if($listing->exists)<form class="panel archive-panel" method="post" action="{{ route('admin.archive',$listing) }}">@csrf @method('delete')<p>{{ __('admin.archive_help') }}</p><button class="button outline">{{ __('admin.archive') }}</button></form>@endif
+@if($listing->exists)<form class="panel archive-panel" data-confirm="{{ __('admin.delete_confirm') }}" method="post" action="{{ route('admin.archive',$listing) }}">@csrf @method('delete')<p>{{ __('admin.archive_help') }}</p><button class="button outline">{{ __('admin.delete_listing') }}</button></form>@endif
 @endsection

@@ -1,3 +1,10 @@
+document.addEventListener('submit', (event) => {
+    const form = event.target.closest('form[data-confirm]');
+    if (form && !window.confirm(form.dataset.confirm)) {
+        event.preventDefault();
+    }
+});
+
 document.addEventListener('click', async (event) => {
     const button = event.target.closest('.copy-contact');
     if (!button) return;
